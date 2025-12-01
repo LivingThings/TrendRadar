@@ -1,42 +1,21 @@
+pmi
+采购经理指数
 
-DeepSeek
+CCI
+消费者信心指数
 
+ppi
+生产者价格指数
 
-比亚迪
+CPI
+居民消费价格指数
 
-大疆
-DJI
+房价
+房租
 
-宇树
+失业率
 
-字节
-bytedance
-张一鸣
-
-特斯拉
-马斯克
-
-微软
-Microsoft
-
-英伟达
-NVIDIA
-黄仁勋
-
-AMD
-
-谷歌
-google
-gemini
-deepmind
-
-chatgpt
-openai
-sora
-
-claude
-Anthropic
-
+贸易
 
 ai
 !gai
@@ -44,137 +23,55 @@ ai
 
 自动驾驶
 
-机器人
+储能
 
 国产
 中国
+!卡脖子
+!大妈
 
 美国
 日本
 韩国
 
-芯片
-光刻机
-
-科技
-
-核能
-水电站
-雅鲁藏布江
 
 新质生产力
 
 大模型
 LLM
 多模态
-Reasoning Tokens
-Chain-of-Thought
-模型压缩
-Distillation
-Quantization
+
 RAG
 检索增强生成
+
 MCP
 Model Context Protocol
+
 AI Agent
 Subagent
-自监督学习
-Self-supervised learning
-AI 搜索引擎
-AI 医疗诊断
-医疗大模型
-AI 金融风控
-AI 教育辅导
-智能教练
-AI 内容生成
-文本
-图像
-视频
-音频
-AI 游戏 NPC
-剧情生成
+
 AI 辅助科研
-论文生成
-实验设计
-DeepSeek
-CodeGeeX
-Yi
+
 LLaMA
-GPT-4
-Claude 3
+GPT
+Claude
 Gemini
+grok
+
 通义千问
 文心一言
+deepseek
+豆包
+
 OpenRouter
-阿里云百炼
-Azure AI Studio
+ollama
+
 Copilot
 Trae
 JetBrains AI Assistant
-AI 芯片
-GPU
-NPU
-ASIC
-华为昇腾
-寒武纪
-AI Safety
-AI Alignment
-AI Regulation
-人工智能监管
-AI Governance
-人工智能治理
-AI 开源
-商业化
-AI 与就业
-Job Impact of AI
-AI 与教育
-AI Literacy
+
 比亚迪
 BYD
-比亚迪汽车
-比亚迪新能源
-比亚迪电动车
-比亚迪混合动力
-比亚迪海洋系列
-比亚迪王朝系列
-比亚迪腾势
-比亚迪仰望
-比亚迪商用车
-比亚迪电池
-比亚迪刀片电池
-比亚迪储能
-比亚迪半导体
-比亚迪智能驾驶
-比亚迪自动驾驶
-比亚迪销量
-比亚迪财报
-比亚迪投资
-比亚迪产业链
-比亚迪政策
-比亚迪市场
-比亚迪研发
+
 机器人
-工业机器人
-协作机器人
-服务机器人
-医疗机器人
-手术机器人
-物流机器人
-仓储机器人
-农业机器人
-建筑机器人
-家用机器人
-人形机器人
-仿生机器人
-机器人操作系统 ROS
-机器人视觉
-机器人控制
-机器人导航
-机器人传感器
-机器人自动化
-机器人产业链
-机器人政策
-机器人市场
-机器人投资
-机器人企业
-机器人研发
+
