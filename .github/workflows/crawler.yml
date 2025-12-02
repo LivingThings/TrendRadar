@@ -26,28 +26,10 @@ jobs:
     
     steps:
       - name: Checkout repository with retry
-        run: |
-          max_attempts=5
-          delay=10
-          attempt=1
-          until [ $attempt -gt $max_attempts ]
-          do
-            echo "Attempt $attempt of $max_attempts..."
-            if git clone https://github.com/${{ github.repository }} repo; then
-              echo "✅ Checkout succeeded"
-              break
-            else
-              echo "❌ Checkout failed, retrying after $delay seconds..."
-              sleep $delay
-              attempt=$((attempt+1))
-              delay=$((delay*2))   # 指数退避
-            fi
-          done
-          if [ $attempt -gt $max_attempts ]; then
-            echo "❌ Checkout failed after $max_attempts attempts"
-            exit 1
-          fi
-        shell: bash
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -125,7 +107,7 @@ jobs:
           until [ $attempt -gt $max_attempts ]
           do
             echo "Attempt $attempt of $max_attempts..."
-            if git pull --rebase origin $BRANCH_NAME && git push origin $BRANCH_NAME; then
+            if git pull --rebase origin $BRANCH_NAME && git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} $BRANCH_NAME; then
               echo "✅ Successfully pushed on attempt $attempt"
               break
             else
