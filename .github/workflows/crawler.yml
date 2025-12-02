@@ -33,7 +33,7 @@ jobs:
           until [ $attempt -gt $max_attempts ]
           do
             echo "Attempt $attempt of $max_attempts..."
-            if git clone https://github.com/${{ github.repository }} repo; then
+            if git clone https://github.com/${{ github.repository }} .; then
               echo "✅ Checkout succeeded"
               break
             else
